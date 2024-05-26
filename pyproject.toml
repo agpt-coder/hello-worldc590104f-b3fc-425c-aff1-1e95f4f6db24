@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "hello-world"
+version = "0.1.0"
+description = "create a single api app. This api should just return \"hello world\""
+authors = ["AutoGPT <info@agpt.co>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<4.0"
+asyncio = "*"
+fastapi = "*"
+h11 = "*"
+prisma = "*"
+pydantic = "*"
+uvicorn = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
